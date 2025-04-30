@@ -17,5 +17,9 @@ fn main() {
     // arrays::prefix_sum::run_get_prefix_sum();
     // arrays::prefix_sum::run_calculate_minimum_start_value();
     // arrays::prefix_sum::run_k_radius_sub_avg();
-    hashing::hash::run_simple_string_hash();
+    // hashing::hash::run_simple_string_hash();
+    // hashing::hash::run_two_sum_hash();
+    // hashing::hash::run_duplicate_letters();
+    // hashing::hash::run_check_if_pangram();
+    hashing::hash::run_missing_number();
 }
