@@ -1,8 +1,9 @@
 #![allow(dead_code)]
 
 mod arrays;
-// mod dynamic;
+mod dynamic;
 mod hashing;
+mod common;
 
 fn main() {
     // dynamic::climbing_stairs::run_climbing_stairs();
@@ -21,5 +22,15 @@ fn main() {
     // hashing::hash::run_two_sum_hash();
     // hashing::hash::run_duplicate_letters();
     // hashing::hash::run_check_if_pangram();
-    hashing::hash::run_missing_number();
+    // hashing::hash::run_missing_number();
+    // hashing::hash::run_counting_elements();
+    // hashing::hash::run_intersection();
+    // hashing::hash::run_occurrances_equal();
+    // hashing::hash::run_subarray_sum();
+    // hashing::hash::run_nice_subarrays();
+    // hashing::hash::run_zero_or_one_losses();
+    // hashing::hash::run_count_losses_array();
+    // hashing::hash::run_largest_unique_number();
+    // hashing::hash::run_maximum_number_of_balloons();
+    hashing::hash::run_contiguous_array();
 }
